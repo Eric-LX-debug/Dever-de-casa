@@ -1,1 +1,5 @@
-
+#Calcule a média de 1 turma, que contenha 10 alunos
+#Você terá de pedir duas notas, e se a média do aluno for igual ou maior que 6, exibir que o aluno foi aprovado
+#Porém, se a média for menor que 6, pedir uma terceira nota. Assim que a terceira nota for informada, pegar a maior nota entre a primeira e a segunda, e calcular com a terceira
+#inserida.
+#Caso a nova media seja maior ou igual a 6, exibir que o aluno foi aprovado, caso não, exibir que aluno foi reprovado.
