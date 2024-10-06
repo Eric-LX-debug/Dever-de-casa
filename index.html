@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de matrícula</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de inscrição</h1>
+    </header>
+    <form name="formulariocadastro" action="action_page.php" method="post" autocomplete="off" target="_blank" novalidate>
+
+        <!--Campos do formulário-->
+        <section class="informacoespessoais">
+
+            <header class="titulo1">
+                <h1>Informações pessoais</h1>
+            </header>
+
+            <p><label>Nome:</label>
+            <input type="text" size="40" name="nome"></p>
+        
+            <p><label>Sobrenome:</label>
+            <input type="text" size="40" name="sobrenome"></p>
+
+            <p><label>E-mail:</label>
+            <input type="text" size="40" name="E-mail"></p>
+
+            <p><label>Senha:</label>
+            <input type="text" size="40" name="Senha"></p>
+
+            <p><label>Confirmação de senha:</label>
+            <input type="text" size="40" name="Confirmação de senha"></p>
+    
+        </section>
+
+        <section class="contato">
+
+            <header class="titulo2">
+                <h1>Informações de contato</h1>
+            </header>
+
+            <p><label>Telefone:</label>
+            <input type="text" size="40" name="nome"></p>
+        
+            <p><label>Endereço:</label>
+            <input type="text" size="40" name="sobrenome"></p>
+
+            <p><label>Cidade:</label>
+            <input type="text" size="40" name="E-mail"></p>
+
+            <p><label>Estado:</label>
+            <input type="text" size="40" name="Senha"></p>
+
+            <p><label>CEP:</label>
+            <input type="text" size="40" name="Confirmação de senha"></p>
+    
+        </section>
+
+        <section class="interessesacademicos">
+
+            <header class="titulo3">
+                <h1>Interesses acadêmicos</h1>
+            </header>
+
+            <h3><p><label>Cursos de interesse:</label></p></h3>
+
+    
+           <input type="checkbox" value="Administração">
+           <label>Administração</label>
+           <br>
+           <input type="checkbox" value="Arquitetura e urbanismo">
+           <label>Arquitetura e Urbanismo</label>
+           <br>
+           <input type="checkbox" value="Bacharelado em Educação Física">
+           <label>Bacharelado em Educação Física</label>
+           <br>
+           <input type="checkbox" value="Bacharelado em Medicina Veterinária">
+           <label>Bacharelado em Medicina Veterinária</label>
+           <br>
+           <input type="checkbox" value="Ciências Contábeis">
+           <label>Ciências Contábeis</label>
+           <br>
+           <input type="checkbox" value="Direito">
+           <label>Direito</label>
+           <br>
+           <input type="checkbox" value="Enfermagem">
+           <label>Enfermagem</label>
+           <br>
+           <input type="checkbox" value="Engenharia Civil">
+           <label>Engenharia Civil</label>
+           <br>
+           <input type="checkbox" value="Engenharia de Produção">
+           <label>Engenharia de Produção</label>
+           <br>
+           <input type="checkbox" value="Engenharia Elétrica">
+           <label>Engenharia Elétrica</label>
+           <br>
+           <input type="checkbox" value="Engenharia Mecânica">
+           <label>Engenharia Mecânica</label>
+           <br>
+           <input type="checkbox" value="Farmácia">
+           <label>Farmácia</label>
+           <br>
+           <input type="checkbox" value="Fisioterapia">
+           <label>Fisioterapia</label>
+           <br>
+           <input type="checkbox" value="Jornalismo">
+           <label>Jornalismo</label>
+           <br>
+           <input type="checkbox" value="Licenciatura em Educação Física">
+           <label>Licenciatura em Educação Física</label>
+           <br>
+           <input type="checkbox" value="Nutrição">
+           <label>Nutrição</label>
+           <br>
+           <input type="checkbox" value="Odontologia">
+           <label>Odontologia</label>
+           <br>
+           <input type="checkbox" value="Psicologia">
+           <label>Psicologia</label>
+           <br>
+           <input type="checkbox" value="Publicidade e Propaganda">
+           <label>Publicidade e Propaganda</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Análise e Desenvolvimento de Sistemas">
+           <label>Superior de Tecnologia em Análise e Desenvolvimento de Sistemas</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Design de Interiores">
+           <label>Superior de Tecnologia em Design de Interiores</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Design Gráfico">
+           <label>Superior de Tecnologia em Design Gráfico</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Estética e Cosmética">
+           <label>Superior de Tecnologia em Estética e Cosmética</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Gastronomia">
+           <label>Superior de Tecnologia em Gastronomia</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Gestão da Tecnologia da Informação">
+           <label>Superior de Tecnologia em Gestão da Tecnologia da Informação</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Gestão de Recursos Humanos">
+           <label>Superior de Tecnologia em Gestão de Recursos Humanos</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Logística">
+           <label>Superior de Tecnologia em Logística</label>
+           <br>
+           <input type="checkbox" value="Superior de Tecnologia em Marketing">
+           <label>Superior de Tecnologia em Marketing</label>
+           <br>
+           <input type="checkbox" value="Terapia Ocupacional">
+           <label>Terapia Ocupacional</label>
+           
+            <p><label>Semestre de ingresso:</label></p>
+
+                <select id="semestredeingresso">
+                    <option>2024.2</option>
+                    <option>2025.1</option>
+
+                </select>
+            
+    
+        </section>
+
+        <section class="experienciaprofissional">
+
+            <header class="titulo4">
+                <h1>Experiência profissional</h1>
+            </header>
+
+            <p><label>Empresa</label>
+            <input type="text" size="40" name="nome"></p>
+        
+            <p><label>Cargo:</label>
+            <input type="text" size="40" name="sobrenome"></p>
+
+            <p><label>Data de início:</label>
+            <input type="date" size="40" name="datainicio"></p>
+
+            <p><label>Data de término:</label>
+            <input type="date" size="40" name="datatermino"></p>
+            
+            
+           
+    
+        </section>
+
+       
+
+        <section class="comentarios">
+
+            <header class="titulo5">
+                <h1>Comentários</h1>
+            </header>
+
+            <p>Insira um comentário ou uma sugestão aqui embaixo</p>
+
+            <textarea placeholder="Insira um comentário ou sugestão" rows="8" cols="40" maxlength="150">
+            </textarea>
+    
+        </section>
+
+        <section class="botao">
+            <br>
+            <button type="submit">Enviar</button>
+        </section>
+
+
+
+
+
+
+        
+      
+    </form>
+</body>
+</html>
